@@ -2,7 +2,7 @@ import React from "react"
 import { useEffect } from "react"
 import AOS from "aos"
 import 'aos/dist/aos.css'
-
+import MainPage from "./components/MainPage"
 
 function App() {
   useEffect(()=>{
@@ -12,7 +12,7 @@ function App() {
   }, [])
   return (
     <main className=" bg-gray-950">
-      <h1>Hello</h1>
+      <MainPage/>
     </main>
   )
 }
