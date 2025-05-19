@@ -4,6 +4,7 @@ import AOS from "aos"
 import 'aos/dist/aos.css'
 import MainPage from "./components/MainPage"
 import About from './components/About'
+import Skills from './components/Skills'
 function App() {
   useEffect(()=>{
     AOS.init({
@@ -14,6 +15,7 @@ function App() {
     <main className=" bg-gray-950">
       <MainPage/>
       <About/>
+      <Skills/>
     </main>
   )
 }
