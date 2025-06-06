@@ -1,15 +1,18 @@
 import React from 'react'
 import vue from '/vue.png'
 import react from '/icon_react.png'
-import leetcode from '/leetcode.png'
+import socket from '/Socket.io.png'
 import tailwind from '/tailwindcss.png'
 import imghero from '/imghero.png'
-
+import cf from '/cf_png.png'
+import nextjs from '/Nextjs.png'
+import postgres from '/PostgresSQL.png'
 const skillData = [
-    {id: 1, image:vue, title: 'Vue', description: 'lorem ipsum this is some randome etxt because lorem did not work'},
-    {id: 2, image:leetcode, title: 'Problem Solving', description: 'lorem ipsum this is some randome etxt because lorem did not work'},
+    {id: 1, image:nextjs, title: 'NextJs', description: 'lorem ipsum this is some randome etxt because lorem did not work'},
+    {id: 2, image:cf, title: 'Problem Solving', description: 'lorem ipsum this is some randome etxt because lorem did not work'},
     {id: 3, image:react, title: 'React', description: 'lorem ipsum this is some randome etxt because lorem did not work'},
-    {id: 4, image:tailwind, title: 'Frontend', description: 'lorem ipsum this is some randome etxt because lorem did not work'}
+    {id: 4, image:socket, title: 'Websockets', description: 'lorem ipsum this is some randome etxt because lorem did not work'},
+    {id: 5, image:postgres, title: 'Relational Databases', description: 'lorem ipsum this is some randome etxt because lorem did not work'}
 ]
 
 
@@ -53,7 +56,7 @@ export default function Skills() {
            Tenetur debitis consectetur accusantium quos, sint quis?
           </p>
         </header>
-        <section data-aos='fade-up' data-aos-delay='500' className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-4'>
+        <section data-aos='fade-up' data-aos-delay='500' className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-3'>
         {skillData.map((skill) => (
         <SkillBox
             key={skill.id}

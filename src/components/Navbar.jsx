@@ -19,7 +19,7 @@ function Navbar() {
       <div className="container mx-auto flex items-center justify-between p-5">
         {/* Logo */}
         <a href="#home" className="text-4xl font-bold italic text-white">
-          Portfolio
+          
         </a>
 
         {/* Mobile menu toggle */}
@@ -70,9 +70,11 @@ function Navbar() {
         ))}
 
         {/* Contact button */}
-        <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg">
-          Contact
-        </button>
+        <a href="#contact">
+          <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg">
+            Contact
+          </button>
+        </a>
       </div>
     </header>
   );
