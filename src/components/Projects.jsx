@@ -7,25 +7,17 @@ const projects = [
   {
     id: 1,
     image: project1,
-    title: 'Expense Manager',
+    title: 'Cubey',
     description: 'A full-stack MERN + PostgreSQL app for college students to track their pocket money and expenses.',
     link: 'https://github.com/sid-darth-73/'
   },
   {
     id: 2,
     image: project2,
-    title: 'Codeforces Comparator',
+    title: 'Compareforces',
     description: 'A React app using the Codeforces API to compare competitive programming profiles.',
     link: 'https://github.com/sid-darth-73/'
   },
-  {
-    id: 3,
-    image: project3,
-    title: 'Portfolio Website',
-    description: 'Personal portfolio built using React and Tailwind CSS with responsive and animated design.',
-    link: 'https://github.com/sid-darth-73/'
-  },
-  
 ]
 
 const ProjectCard = ({ image, title, description, link }) => (

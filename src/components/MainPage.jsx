@@ -2,7 +2,7 @@ import Navbar from './Navbar'
 import linkedin from '/linkedin.png'
 import cf from '/cf_png.png'
 import github from '/github.png'
-import SidCV from '/Sid_cv1.pdf'
+import SidCV from '/sid_main.pdf'
 import Hero from '/imghero.png'
 function MainPage() {
   return (
