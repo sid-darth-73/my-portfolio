@@ -2,14 +2,16 @@ import react from '/icon_react.png'
 import tailwind from '/tailwindcss.png'
 import imghero from '/imghero.png'
 import cf from '/cf.png'
-import nextjs from '/Nextjs.png'
+import Nextjs from '/Nextjs.png'
 import postgres from '/PostgresSQL.png'
+import leetcode from '/leetcode.png'
 
 const skillData = [
-  { id: 1, image: nextjs },
-  { id: 2, image: cf },
-  { id: 3, image: react },
+  { id: 1, image: Nextjs },
+  { id: 2, image: react },
+  { id: 3, image: cf },
   { id: 4, image: postgres },
+  { id: 5, image: leetcode },
 ]
 
 export default function Skills() {
