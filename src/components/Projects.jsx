@@ -1,42 +1,53 @@
 import React from 'react'
-import project1 from '/cf_png.png'
-import project2 from '/cf_png.png'
-import project3 from '/cf_png.png'
+import project1 from '/cubey1.png'
+import project2 from '/cmpf2.png'
 
 const projects = [
   {
     id: 1,
     image: project1,
     title: 'Cubey',
-    description: 'A full-stack MERN + PostgreSQL app for college students to track their pocket money and expenses.',
-    link: 'https://github.com/sid-darth-73/'
+    description: 'A full-stack applicaton that is useful for speedcubers who wish to store their memorable solves and train some algorithms',
+    link: 'https://github.com/sid-darth-73/cubey',
+    demoLink: 'https://cubey-nine.vercel.app/'
   },
   {
     id: 2,
     image: project2,
     title: 'Compareforces',
-    description: 'A React app using the Codeforces API to compare competitive programming profiles.',
-    link: 'https://github.com/sid-darth-73/'
+    description: 'A comparison tool useful for competetive programmers who wish to compare their codeforces profiles to their peers and get some AI based insights on improvement tips',
+    link: 'https://github.com/sid-darth-73/compareforces',
+    demoLink: 'https://compare-forces.vercel.app/'
   },
 ]
 
-const ProjectCard = ({ image, title, description, link }) => (
+const ProjectCard = ({ image, title, description, link, demoLink }) => (
   <article className='bg-gray-800 p-4 sm:p-6 rounded-lg shadow-lg hover:bg-purple-800 transition-all duration-300'>
     <figure className='mb-4'>
-      <img src={image} alt={title} className='w-full h-40 object-cover rounded-md' />
+      <img src={image} alt={title} className='w-full h-58 object-cover rounded-md' />
     </figure>
     <header className='mb-2'>
       <h3 className='text-lg sm:text-xl font-semibold'>{title}</h3>
     </header>
     <p className='text-gray-400 text-sm sm:text-base mb-4'>{description}</p>
+    
     <a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-block text-white border-2 py-1 px-4 rounded-full hover:bg-white hover:text-purple-900 transition"
+      className="inline-block text-white border-2 py-1 px-4 mx-1 rounded-full hover:bg-white hover:text-purple-900 transition"
     >
-      View Project
+      Github
     </a>
+    <a
+      href={demoLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block text-white border-2 py-1 px-4 mx-1 rounded-full hover:bg-white hover:text-purple-900 transition"
+    >
+      Demo
+    </a>
+
   </article>
 )
 
@@ -65,7 +76,7 @@ export default function Projects() {
         <section
           data-aos="fade-up"
           data-aos-delay="500"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-3"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mt-3 justify-center"
         >
           {projects.map(project => (
             <ProjectCard key={project.id} {...project} />

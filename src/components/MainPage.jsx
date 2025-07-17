@@ -1,6 +1,6 @@
 import Navbar from './Navbar'
 import linkedin from '/linkedin.png'
-import cf from '/cf_png.png'
+import cf from '/cf.png'
 import github from '/github.png'
 import SidCV from '/sid_main.pdf'
 import Hero from '/imghero.png'
@@ -17,21 +17,20 @@ function MainPage() {
                 <div className='absolute -z-10 w-60 h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 -left-12'/>
                 <header>
                     <h1 className='text-4xl sm:text-4xl md:text-5xl font-bold text-white mb-4'>Siddharth Raj</h1>
-                    <h2 className='text-xl sm:text-4xl md:text-2xl font-bold text-[#3e0f4a] md:text-[#c744ec] mb-2'>BIT Mesra, Ranchi (CSE '27)</h2>
                 </header>
                 <p className='text-base sm:text-lg md:text-lg text-gray-200 mb-6'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus repellendus 
-                    fugiat reprehenderit eius illo neque eligendi odit in, saepe debitis.
+                    Btech, Computer Science and Engineering '27 <br />
+                    BIT Mesra, Ranchi
                 </p>
                 <div className='flex items-center space-x-4 mb-6'>
+                    <a href="https://www.linkedin.com/in/siddharth-raj-337937275/" target='_bank'>
+                        <img src={linkedin} alt="linkedin" className='w-11 h-11'/>
+                    </a>
                     <a href="https://github.com/sid-darth-73" target='_blank'>
                         <img src={github} alt="github" className='w-11 h-11'/>
                     </a>
                     <a href="https://codeforces.com/profile/unbit" target='_blank'>
                         <img src={cf} alt="cf" className='w-11 h-11'/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/siddharth-raj-337937275/" target='_bank'>
-                        <img src={linkedin} alt="linkedin" className='w-11 h-11'/>
                     </a>
                     
                 </div>
