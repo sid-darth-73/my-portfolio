@@ -18,7 +18,7 @@ function MainPage() {
                 <header>
                     <h1 className='text-4xl sm:text-4xl md:text-5xl font-bold text-white mb-4'>Siddharth Raj</h1>
                 </header>
-                <p className='text-base sm:text-lg md:text-lg text-gray-200 mb-6'>
+                <p className='font-chewy text-base sm:text-lg md:text-lg text-gray-200 mb-6'>
                     Btech, Computer Science and Engineering '27 <br />
                     BIT Mesra, Ranchi
                 </p>
@@ -35,7 +35,7 @@ function MainPage() {
                     
                 </div>
                 <a href="https://drive.google.com/file/d/1j46ohqCDvZqc5-THe07uazEl4gCzFt5c/view?usp=sharing" target='_blank'>
-                    <button className='inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg'>Download CV</button>
+                    <button className='inline-flex font-fira text-white border-2 py-2 px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg'>Download CV</button>
                 </a>
             </section>
             <figure data-aos='fade-up' data-aos-delay='500' className='flex-1 flex justify-center md:justify-end mt-0'>

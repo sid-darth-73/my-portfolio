@@ -14,12 +14,11 @@ function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full z-20 text-white" data-aos="fade-up" data-aos-delay="300">
       <div className="container mx-auto flex items-center justify-between p-5">
-        {/* Logo */}
+
         <a href="#home" className="text-4xl font-bold italic text-white">
-          {/* Add your logo or site name here if needed */}
+
         </a>
 
-        {/* Mobile menu toggle */}
         <button
           className="md:hidden focus:outline-none z-30"
           onClick={() => setOpen(!open)}
@@ -27,13 +26,13 @@ function Navbar() {
           {open ? <FiX className="w-8 h-8" /> : <FiMenu className="w-8 h-8" />}
         </button>
 
-        {/* Desktop navigation */}
+
         <nav className="hidden md:flex items-center space-x-7">
           {NavbarLinks.map((link) => (
             <a
               key={link.id}
               href={link.link}
-              className="text-lg hover:text-gray-200"
+              className="text-lg hover:text-gray-200 font-fira"
             >
               {link.name}
             </a>
@@ -41,7 +40,7 @@ function Navbar() {
         </nav>
       </div>
 
-      {/* Mobile navigation */}
+
       {open && (
         <div className="md:hidden bg-[#801b9c] absolute top-0 left-0 w-full h-screen flex flex-col items-center space-y-8 pt-16 z-20">
           {NavbarLinks.map((link) => (

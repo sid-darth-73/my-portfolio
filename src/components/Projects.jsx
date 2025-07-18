@@ -65,12 +65,10 @@ export default function Projects() {
         className="relative z-20 text-center space-y-6 sm:space-y-10"
       >
         <header>
-          <h1 className="text-3xl sm:text-4xl font-bold">
+          <h1 className="text-3xl font-chewy sm:text-4xl font-bold">
             Featured <span className="text-purple-400">Projects</span>
           </h1>
-          <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
-            A few of the applications and tools I've built recently.
-          </p>
+         
         </header>
 
         <section

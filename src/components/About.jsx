@@ -25,15 +25,14 @@ export default function About() {
         <article data-aos="fade-left" data-aos-delay="500" className="text-center lg:text-left relative">
             <div className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-10"></div>
             <header>
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
-                About Me
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 font-chewy">
+                Hi all!
                 </h1>
             </header>
-            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut aperiam quia dignissimos
-                corrupti, hic fugit, eveniet reprehenderit possimus voluptatum tenetur provident consequatur
-                itaque id rerum? Quo quaerat ab
-            </p>
+            <p className="text-base sm:text-lg md:text-2xl text-gray-300 mb-6 sm:mb-8 leading-relaxed font-chewy">
+            I'm a passionate Computer Science student with a strong enthusiasm for competitive programming, where I enjoy solving problems and improving algorithmic thinking. I love building useful tools and applications — both for personal productivity and to help others. Outside of coding, I’m a dedicated speedcuber and chess enthusiast, always drawn to challenges that sharpen focus, logic, and creativity.
+          </p>
+
             
         </article>
 
