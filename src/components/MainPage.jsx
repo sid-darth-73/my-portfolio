@@ -1,7 +1,7 @@
 import Navbar from './Navbar'
-import linkedin from '/linkedin.png'
-import cf from '/cf.png'
-import github from '/github.png'
+import linkedin from '/linkedin.svg'
+import cf from '/cf.svg'
+import github from '/github.svg'
 import SidCV from '/sid_main.pdf'
 import Hero from '/imghero.png'
 function MainPage() {
@@ -34,7 +34,7 @@ function MainPage() {
                     </a>
                     
                 </div>
-                <a href={SidCV} target='_blank'>
+                <a href="https://drive.google.com/file/d/1j46ohqCDvZqc5-THe07uazEl4gCzFt5c/view?usp=sharing" target='_blank'>
                     <button className='inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg'>Download CV</button>
                 </a>
             </section>

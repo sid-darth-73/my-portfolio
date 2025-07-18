@@ -1,7 +1,6 @@
 import React from 'react'
-import img_about1 from '/Users/siddharthraj/Desktop/my-portfolio/public/img_about1.png'
-import img_about2 from '/Users/siddharthraj/Desktop/my-portfolio/public/img_about2.png'
-import img_about from '/Users/siddharthraj/Desktop/my-portfolio/public/img_about.png'
+import img_about1 from '/img_about1.png'
+import img_about2 from '/img_about2.png'
 
 
 export default function About() {
@@ -21,8 +20,7 @@ export default function About() {
             className="absolute -top-2 left-5 sm:left-10 transform -translate-y-12 z-20 w-24 h-24 sm:w-32 sm:h-32 rounded-3xl shadow-lg" />
           <img src={img_about2} alt="about picture 2"
             className="relative z-10 w-36 h-44 sm:w-40 sm:h-40 md:w-72 md:h-96 rounded-lg shadow-lg" />
-          <img src={img_about} alt="about picture"
-            className="absolute bottom-0 right-5 sm:right-10 transform translate-y-12 z-10 w-20 h-20 sm:w-32 sm:h-32 rounded-3xl shadow-lg" />
+         
         </figure>
         <article data-aos="fade-left" data-aos-delay="500" className="text-center lg:text-left relative">
             <div className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-10"></div>
@@ -36,11 +34,7 @@ export default function About() {
                 corrupti, hic fugit, eveniet reprehenderit possimus voluptatum tenetur provident consequatur
                 itaque id rerum? Quo quaerat ab
             </p>
-            <footer>
-                <button className="inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-sm sm:text-lg">
-                Learn More
-                </button>
-            </footer>
+            
         </article>
 
       </div>
